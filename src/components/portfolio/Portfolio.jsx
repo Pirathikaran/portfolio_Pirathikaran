@@ -11,17 +11,18 @@ import {
 } from "../../data"
 
 export default function Portfolio() {
-    const [selected,setSelected]=useState("featured")
+    const [selected,setSelected]=useState("web")
     const [data,setdata]=useState([])
 
     const list=[
-        {
-            id:"featured",
-            title:"Featured"
-        },
+       
         {
             id:"web",
             title:"Web App"
+        },
+        {
+            id:"featured",
+            title:"Industry"
         },
         {
             id:"mobile",
@@ -29,7 +30,7 @@ export default function Portfolio() {
         },
         {
             id:"design",
-            title:"Design"
+            title:"Desktop App"
         },
         {
             id:"content",
