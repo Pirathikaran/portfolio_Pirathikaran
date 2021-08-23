@@ -4,35 +4,36 @@ export default function Testimonials() {
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
-          title: "Senior Developer",
-          img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+          name: "Vishva rodrigo",
+          title: "Cloud Architect",
+          img:"assets/vishva.jpg",
+            // "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
           icon: "assets/twitter.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "You did great job at intern time period.",
         },
         {
           id: 2,
-          name: "Alex Kalinski",
-          title: "Co-Founder of DELKA",
-          img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/youtube.png",
+          name: "Sanjeevan Balasingam",
+          title: "Senior Software Engineer",
+          img:"assets/sangee.jpg",
+            // "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+          icon: "assets/linkedin.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-          featured: true,
+            "I have worked with him amazing. He is more interested in developing useful app for society. ",
+            featured: true,
         },
         {
           id: 3,
-          name: "Martin Harold",
-          title: "CEO of ALBI",
-          img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          icon: "assets/linkedin.png",
+          name: "Sumudu Hewage",
+          title: "Senior Software Engineer",
+          img:"assets/sumudu.jpg",
+            // "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+          icon: "assets/twitter.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+            "I appreciate his work and dedication to learning new things. ",
         },
+        
       ];
     return (
         <div className="testimonials" id="testimonials">

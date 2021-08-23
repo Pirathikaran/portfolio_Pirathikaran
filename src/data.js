@@ -18,6 +18,12 @@
     img:"/assets/cv.png"
     // img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
   },
+  {
+    id: 4,
+    title: "Employee Record system",
+    img:"/assets/employee.png"
+    // img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+  },
   // {
   //   id: 4,
   //   title: "Web Relax App",
@@ -124,9 +130,9 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Fire Alarm System",
+      img:"/assets/firealaram.png"
+        // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     },
     // {
     //   id: 3,

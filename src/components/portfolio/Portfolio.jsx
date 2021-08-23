@@ -32,10 +32,10 @@ export default function Portfolio() {
             id:"design",
             title:"Desktop App"
         },
-        {
-            id:"content",
-            title:"Content"
-        }
+        // {
+        //     id:"content",
+        //     title:"Content"
+        // }
     ];
 
     useEffect(() => {
